@@ -16,7 +16,7 @@ public class ExcelColumns {
      */
     public static void main(String[] args) {
          // TODO code application logic here
-        String [] columnNames = generateExcelColumnNames(1000);
+        String [] columnNames = generateExcelColumnNames(350);
         
         for(String columnName : columnNames){
             System.out.println(columnName + " ");
